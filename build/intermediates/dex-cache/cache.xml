@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_654c147b9f7b196c2fca9eb157edd840af6eb205/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_e0b1e15a44b0d209fffd189e0cff5fc697d919ff/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5b2e5349f41e08dbe9076fe2ca4d3db79b4afad">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_587eed2693e62520381a02a69fcf60dca24e4a2a/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_56fe67ee44d732edb1b5862cc7de78c270781787/classes.dex" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_b975d86e0abec7206d5cce18f9d4cf511f96b32d/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_4448171ffb7348ebd69556ad92686ad54c6b234e/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_a405d26e0640fff4bc3059f6abd4e005e25d63e9/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_62d6469b88de9a99bb24e9b0ed1926416c87afdf/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="501cf74a449f48563de8042cb5dcc24deb055c30">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c106c72521ed61ec16d359f5dfc87dabf40adf79/classes.dex" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_4c60efd5cc106140f8d2d53bc37b629b944fe1e8/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameActivity" >
+
+    <item android:id="@+id/menuSounds"
+        android:title="sounds"
+        android:icon="@drawable/sound"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/sdPokemon" android:title="Pokemon Red"/>
+
+            <item android:id="@+id/sdMario" android:title="Mario Bross"/>
+
+            <item android:id="@+id/sdNaruto" android:title="Naruto"/>
+
+            <item android:id="@+id/sdDMtheme" android:title="Star Wars"/>
+
+            <item android:id="@+id/sdGow" android:title="God of War"/>
+
+            <item android:id="@+id/sdMegaman" android:title="Megama x6"/>
+
+            <item android:id="@+id/sdDeathNote" android:title="Death Note"/>
+
+            <item android:id="@+id/sdDbz" android:title="DBZ"/>
+
+            <item android:id="@+id/sdRadar" android:title="radar"/>
+        </menu>
+    </item>
+</menu>
