@@ -8,6 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:id="@+id/backGround"
     tools:context=".GameActivity">
 
     <ListView
@@ -53,7 +54,18 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:onClick="showClue1">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@android:color/background_dark"
+                    android:id="@+id/piece2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:onClick="showClue2">
 
                 </LinearLayout>
             </LinearLayout>
@@ -64,20 +76,33 @@
                 android:orientation="horizontal">
                 <LinearLayout
                     android:background="@android:color/background_dark"
-                    android:id="@+id/piece2"
+                    android:id="@+id/piece3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:onClick="showClue3">
 
                 </LinearLayout>
                 <LinearLayout
-                    android:id="@+id/piece3"
+                    android:id="@+id/piece4"
                     android:background="@android:color/background_dark"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:onClick="showClue4">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/piece5"
+                    android:background="@android:color/background_dark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:onClick="showClue5">
 
                 </LinearLayout>
             </LinearLayout>
