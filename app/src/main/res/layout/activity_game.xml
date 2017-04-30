@@ -27,7 +27,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ctic"/>
+            android:src="@drawable/team_smartcity"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"

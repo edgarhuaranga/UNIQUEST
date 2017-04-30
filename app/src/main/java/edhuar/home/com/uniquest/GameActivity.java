@@ -1,5 +1,6 @@
 package edhuar.home.com.uniquest;
 
+import android.Manifest;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,14 +10,17 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Handler;
 import android.os.RemoteException;
 import android.os.Vibrator;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AlertDialog;
@@ -46,7 +50,9 @@ public class GameActivity extends AppCompatActivity {
     private LeDeviceListAdapter adapter;
     private static final Region ALL_BEACONS_REGION = new Region("rid", null, null, null);
     public static final int REQUEST_ENABLE_BLUETOOTH = 1234;
-
+    int PERMISSION_ALL = 1;
+    String[] PERMISSIONS = {Manifest.permission.ACCESS_FINE_LOCATION,
+            Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.WAKE_LOCK};
 
 
     LinearLayout p0, p1, p2, p3, p4, p5;
@@ -73,7 +79,9 @@ public class GameActivity extends AppCompatActivity {
         ganador = false;
         sonido=new Sonido(this);
         sonido.Play(R.raw.deathnotel);
-
+        if(!hasPermissions(this, PERMISSIONS)){
+            ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
+        }
         activo =true;
         p0 = (LinearLayout) findViewById(R.id.piece0);
         p1 = (LinearLayout) findViewById(R.id.piece1);
@@ -130,41 +138,41 @@ public class GameActivity extends AppCompatActivity {
                 //Log.i("JAALEE", "On bluetooth low energy discovery:" + device.getMacAddress());
 
                 Log.d("UNIQUEST2", "El dispositivo "+device.getRssi()+" fue descubierto "+System.currentTimeMillis());
-                if(device.getMacAddress().equalsIgnoreCase("F6:91:19:70:6A:4E") ){
+                if(device.getMacAddress().equalsIgnoreCase("CF:4A:EC:23:47:99") ){//NBe01
                     setMtime();
                     if((device.getRssi()>-85) )
                         p0.setVisibility(View.INVISIBLE);
-                    //((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
+                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
                 }
-                if(device.getMacAddress().equalsIgnoreCase("F9:47:58:EB:AC:A0")){
+                if(device.getMacAddress().equalsIgnoreCase("DD:3F:F4:CF:13:66") ){//NBe02
                     setMtime();
                     if((device.getRssi()>-85) ){
                         p1.setVisibility(View.INVISIBLE);
-                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
+                        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
                 }
-                if(device.getMacAddress().equalsIgnoreCase("CC:1E:66:4C:E6:93") ){
+                if(device.getMacAddress().equalsIgnoreCase("E2:BE:2C:EC:C0:E2") ){//Be04
                     setMtime();
                     if((device.getRssi()>-85) ){
                         p2.setVisibility(View.INVISIBLE);
-                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
+                        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
                 }
-                if(device.getMacAddress().equalsIgnoreCase("C3:B7:4E:8D:D1:E8") ){
+                if(device.getMacAddress().equalsIgnoreCase("FB:D3:B5:B9:89:F2") ){//Be08
                     setMtime();
                     if((device.getRssi()>-85) ){
                         p3.setVisibility(View.INVISIBLE);
-                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
+                        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);}
                 }
-                if(device.getMacAddress().equalsIgnoreCase("EA:C6:29:5F:32:4C")){
+                if(device.getMacAddress().equalsIgnoreCase("C9:EC:7A:17:D8:D5")){//Be10
                     setMtime();
                     if((device.getRssi()>-85) ){
-                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
-                    p4.setVisibility(View.INVISIBLE);}
+                        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
+                        p4.setVisibility(View.INVISIBLE);}
                 }
-                if(device.getMacAddress().equalsIgnoreCase("E2:BE:2C:EC:C0:E2")){
+                if(device.getMacAddress().equalsIgnoreCase("EA:EF:87:2F:4D:93")){///Be11
                     setMtime();
                     if((device.getRssi()>-85) ){
-                    ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
-                    p5.setVisibility(View.INVISIBLE);}
+                        ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(500);
+                        p5.setVisibility(View.INVISIBLE);}
                 }
             }
         });
@@ -178,7 +186,7 @@ public class GameActivity extends AppCompatActivity {
         drawable.addFrame(new ColorDrawable(Color.GREEN), 400);
         drawable.setOneShot(false);
 
-        backG.setBackgroundDrawable(drawable);
+        backG.setBackground(drawable);
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -190,6 +198,17 @@ public class GameActivity extends AppCompatActivity {
                 drawable.start();
             }
         }, 100);
+    }
+
+    public static boolean hasPermissions(Context context, String... permissions) {
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && context != null && permissions != null) {
+            for (String permission : permissions) {
+                if (ActivityCompat.checkSelfPermission(context, permission) != PackageManager.PERMISSION_GRANTED) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     private synchronized void setMtime(){
@@ -210,11 +229,11 @@ public class GameActivity extends AppCompatActivity {
                     long time = System.currentTimeMillis()-getMtime();
                     if(time>4000){
                         SuenaMuActual(muactual);
-                        Log.d("UNIQUEST2","Restar_Naruto" + time);
+
                     }
                     else {
                         Log.d("UNIQUEST2","Suena Radar_" + time);
-                        sonido.Play(R.raw.radar);
+
                     }
                     esperoTiempo(TiempoCiclo);
                     //winornot();
@@ -379,7 +398,7 @@ public class GameActivity extends AppCompatActivity {
         super.onResume();
         //sonido.Play(R.raw.godofwar);
 
-        SuenaMuActual(R.raw.darthmaultheme);
+        //SuenaMuActual(R.raw.darthmaultheme);
         activo=true;
         HiloAlternativo();
         winornot();

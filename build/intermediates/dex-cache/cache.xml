@@ -2,74 +2,121 @@
 <items version="2" >
 
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_654c147b9f7b196c2fca9eb157edd840af6eb205/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_c085948588f1507c09a1053055b4c1c880f8b090.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_e0b1e15a44b0d209fffd189e0cff5fc697d919ff/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/5c7e8644d2d5401f9293cc2f01aa208c5d8e681f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_faf2c683c0c5c8b05aaa807407226f0779bd9693.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e5b2e5349f41e08dbe9076fe2ca4d3db79b4afad">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_587eed2693e62520381a02a69fcf60dca24e4a2a/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/7270f5e021bb148e7a3296411afa25dc134c333c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_64df345f70844c222c9cd3cea0e759aeed62c644.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_56fe67ee44d732edb1b5862cc7de78c270781787/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/9d6c98d94b22017a726ae3d4c0f082602c0e167f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_4876a92eb849e23a438ad92e02ed39b00bf2364b.jar" />
     </item>
     <item
-        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_b975d86e0abec7206d5cce18f9d4cf511f96b32d/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/c7e9f91395909673ea060cfbcae6eac5d01f507e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_56ea3ea855e626533bc67b822b31a11dfe43b035.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_4448171ffb7348ebd69556ad92686ad54c6b234e/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/70fa10e4b7a1e69f7b5627d95f3858e82bf88ce3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_9b046eef6d091957f5b157ad61ce44861c7df3da.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_a405d26e0640fff4bc3059f6abd4e005e25d63e9/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/2475ee85245f22e827c6363b58fd709f6c05b618/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_698c9336a4f7f2b728c8dc4aa237711eed9e5263.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_62d6469b88de9a99bb24e9b0ed1926416c87afdf/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/851e5a93634a55392468c19a5f09747a5dab4798/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_d26abf3a6acef4437c0903addc33465ebbda14be.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="501cf74a449f48563de8042cb5dcc24deb055c30">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c106c72521ed61ec16d359f5dfc87dabf40adf79/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/ae9ab8efbf6e26c6d8de95ce63ffaf65c8488c4e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_6e2bd4c85959fa9cbe2a615d2f2a755ade7e6379.jar" />
     </item>
     <item
-        jar="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="/root/AndroidStudioProjects/UNIQUEST/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_4c60efd5cc106140f8d2d53bc37b629b944fe1e8/classes.dex" />
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/db48ac30875fc7bfeaff5277ac365062409e8e55/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_24985875087a126c52bb50cc6b8bc3a4996a151b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/c886bbb2af3ca7ee392ee606ef96615b0dfed691/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_0ec5c486b32b0c0929e78f00fe1b5d4a05a8f61b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/a6bbce521ee52dc67a5eae0f0ba89fe86b05660d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_3696169c51a5d6e20727c8525b9f177da17e3a08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/giovanny/.android/build-cache/93a7f3ccb84d461a5c99f95ce4267246a0cadeca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/home/giovanny/AndroidStudioProjects/UNIQUEST/app/build/intermediates/pre-dexed/debug/classes_3a5d7a3bd338b7cf61dc5782e5dc2ca71dc5fad0.jar" />
     </item>
 
 </items>
